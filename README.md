@@ -312,32 +312,6 @@ streamlit run app.py
 
 
 
-\# 📸 Screenshots
-
-
-
-Add your project screenshots inside the `screenshots/` folder.
-
-
-
-Example:
-
-\- Login Page
-
-\- Fraud Prediction
-
-\- Dashboard Analytics
-
-\- SHAP Explainability
-
-\- PDF Reports
-
-
-
-\---
-
-
-
 \# 🎯 Project Objectives
 
 
