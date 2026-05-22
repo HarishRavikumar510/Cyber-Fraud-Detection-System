@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+.env
+fraud_detection.db
+.streamlit/secrets.toml

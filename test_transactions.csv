@@ -1,0 +1,5 @@
+amount,transaction_type,device_risk
+5000,UPI,20
+25000,UPI,95
+12000,Credit Card,80
+3000,Bank Transfer,15
