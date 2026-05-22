@@ -54,8 +54,6 @@ st.markdown('<div class="subtitle">AI-powered fraud detection, monitoring, analy
 st.write("")
 
 if not st.session_state.logged_in:
-    st.markdown('<div class="card">', unsafe_allow_html=True)
-
     st.subheader("🔐 Admin Login")
 
     username = st.text_input("Username")
@@ -68,8 +66,6 @@ if not st.session_state.logged_in:
             st.rerun()
         else:
             st.error("Access denied. Invalid credentials.")
-
-    st.markdown('</div>', unsafe_allow_html=True)
 
 else:
     st.sidebar.success("Logged in as Admin")
