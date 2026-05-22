@@ -346,7 +346,7 @@ AI • Cybersecurity • IoT • Machine Learning Enthusiast
 
 \- GitHub: https://github.com/HarishRavikumar510
 
-\- LinkedIn: Add Your LinkedIn Profile Here
+\- LinkedIn: https://www.linkedin.com/in/harish-ravikumar-70509524a/
 
 
 
