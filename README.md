@@ -55,25 +55,25 @@ F --> G[PDF Report Generation]
 
 > Secure admin authentication system
 
----![alt text](image.png)
+![alt text](image.png)
 
 ## 🔍 Fraud Prediction Engine
 
 > Detect suspicious transactions using Machine Learning
 
----![alt text](image-1.png)
+![alt text](image-1.png)
 
 ## 📊 Monitoring Dashboard
 
 > Real-time fraud analytics and visualization
 
----![alt text](image-2.png)
+![alt text](image-2.png)
 
 ## 🧠 Explainable AI (SHAP)
 
 > Understand why the model predicts fraud
 
----![alt text](image-3.png)
+![alt text](image-3.png)
 
 # ⚡ Core Features
 
