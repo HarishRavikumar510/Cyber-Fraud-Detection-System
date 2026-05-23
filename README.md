@@ -1,21 +1,20 @@
 <div align="center">
 
-# 🚀 AutoEntry AI
+# 🛡️ Cyber Fraud Detection Monitoring System
 
-### 🤖 Intelligent Document Processing • Workflow Automation • Browser Automation
+### 🚨 AI-Powered Fraud Detection • Explainable AI • Cybersecurity Analytics
 
 <img src="https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python">
-<img src="https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit">
-<img src="https://img.shields.io/badge/Playwright-Browser%20Automation-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/Streamlit-Live-red?style=for-the-badge&logo=streamlit">
+<img src="https://img.shields.io/badge/Machine%20Learning-Fraud%20Detection-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/SHAP-Explainable%20AI-orange?style=for-the-badge">
 <img src="https://img.shields.io/badge/SQLite-Database-blue?style=for-the-badge&logo=sqlite">
-<img src="https://img.shields.io/badge/PyMuPDF-PDF%20Extraction-orange?style=for-the-badge">
-<img src="https://img.shields.io/badge/AI-Document%20Processing-purple?style=for-the-badge">
 
 ---
 
-### 🔥 AI-Powered Workflow Automation Platform Built Using Intelligent Document Processing
+### 🔥 Intelligent Cybersecurity Monitoring Platform Built Using Machine Learning
 
-Extract structured data from PDFs, resumes, invoices, and spreadsheets, then automatically fill and submit online forms using browser automation and AI-powered smart field matching.
+Detect suspicious financial transactions, analyze fraud risks, visualize fraud analytics, and generate AI-powered fraud monitoring reports using an interactive cybersecurity dashboard.
 
 </div>
 
@@ -23,32 +22,29 @@ Extract structured data from PDFs, resumes, invoices, and spreadsheets, then aut
 
 # 🚀 Project Highlights
 
-✅ AI-Powered Document Processing  
-✅ PDF Resume & Invoice Extraction  
-✅ Google Form Automation  
-✅ Browser Automation Using Playwright  
-✅ CSV Bulk Data Submission  
-✅ Smart Dynamic Field Matching  
+✅ AI-Powered Fraud Detection  
+✅ SHAP Explainable AI  
+✅ Interactive Cybersecurity Dashboard  
+✅ CSV Bulk Fraud Analysis  
+✅ PDF Report Generation  
 ✅ SQLite Database Integration  
-✅ Analytics Dashboard  
-✅ OCR-Ready Architecture  
-✅ Downloadable Submission Reports  
-✅ Login Authentication System  
+✅ Admin Authentication  
+✅ Fraud Risk Scoring  
+✅ Security Recommendations  
 ✅ Dark-Themed Professional UI  
 
 ---
 
-# 🧠 AutoEntry AI Workflow
+# 🧠 AI Fraud Detection Workflow
 
 ```mermaid
 flowchart LR
-A[PDF / CSV Upload] --> B[Document Extraction Engine]
-B --> C[Smart Field Detection]
-C --> D[Structured Data Processing]
-D --> E[Browser Automation]
-E --> F[Google Form Submission]
-F --> G[SQLite Database Storage]
-G --> H[Analytics Dashboard]
+A[Transaction Input] --> B[Machine Learning Model]
+B --> C[Fraud Prediction]
+C --> D[Risk Score Analysis]
+D --> E[SHAP Explainability]
+E --> F[Dashboard Analytics]
+F --> G[PDF Report Generation]
 ```
 
 ---
@@ -57,72 +53,58 @@ G --> H[Analytics Dashboard]
 
 ## 🔐 Login Interface
 
-> Secure authentication system for protected workflow automation
+> Secure admin authentication system
 
-![alt text](screenshots/login.png)
+![alt text](image.png)
 
-## 📄 PDF Extraction Engine
+## 🔍 Fraud Prediction Engine
 
-> Extract Name, Email, Phone, and document information automatically
+> Detect suspicious transactions using Machine Learning
 
-![alt text](screenshots/pdf_extraction.png)
+![alt text](image-1.png)
 
-## 🤖 Browser Automation
+## 📊 Monitoring Dashboard
 
-> Automatically fills and submits Google Forms using extracted data
+> Real-time fraud analytics and visualization
 
-![alt text](screenshots/browser_automation.png)
+![alt text](image-2.png)
 
-## 📊 Analytics Dashboard
+## 🧠 Explainable AI (SHAP)
 
-> Monitor successful and failed submissions using real-time analytics
+> Understand why the model predicts fraud
 
-![alt text](screenshots/dashboard.png)
-
-## 📜 Submission History
-
-> Permanent submission tracking using SQLite database integration
-
-![alt text](screenshots/history.png)
-
----
+![alt text](image-3.png)
 
 # ⚡ Core Features
 
-## 📄 Intelligent Document Processing
-- Extracts structured data from PDF files
-- Resume and invoice data extraction
-- OCR-ready architecture
-- Smart regex-based field detection
+## 🔍 Fraud Prediction
+- Predicts fraudulent transactions using ML models
+- Calculates fraud probability score
+- Classifies transactions as Safe or Fraud
 
-## 🤖 Browser Automation
-- Google Form auto-fill automation
-- Automatic browser control using Playwright
-- Dynamic field matching
-- Multi-record workflow automation
+## 🧠 SHAP Explainability
+- Visualizes feature impact
+- Explains AI decision-making process
+- Improves transparency and trust
 
-## 📊 Dashboard Analytics
-- Submission success/failure tracking
-- Analytics monitoring dashboard
-- Real-time automation statistics
-- Downloadable reports
+## 📈 Dashboard Analytics
+- Fraud vs Safe visualization
+- Fraud risk trends
+- Transaction type analysis
+- High-risk monitoring
 
-## 📂 CSV Bulk Automation
-- Upload CSV or spreadsheet files
-- Batch form submission
-- Bulk workflow automation
-- Submission progress monitoring
+## 📂 Bulk CSV Analysis
+- Upload multiple transactions
+- Batch fraud analysis
+- Download analyzed CSV reports
+
+## 📄 PDF Report Generation
+- Download professional fraud monitoring reports
+- Includes fraud statistics and transaction logs
 
 ## 🗄️ Database Integration
-- SQLite persistent storage
-- Submission history tracking
-- Error logging
-- Permanent automation records
-
-## 🔐 Authentication System
-- Login-protected dashboard
-- Session-based authentication
-- Secure workflow access
+- Stores prediction history
+- Maintains transaction monitoring records
 
 ---
 
@@ -132,37 +114,42 @@ G --> H[Analytics Dashboard]
 |---|---|
 | Python | Core Backend Logic |
 | Streamlit | Frontend Dashboard |
-| Playwright | Browser Automation |
-| SQLite | Database Persistence |
+| Scikit-learn | Machine Learning |
+| SHAP | Explainable AI |
+| SQLite | Database |
 | Pandas | Data Processing |
-| PyMuPDF | PDF Text Extraction |
-| Regex | Smart Field Detection |
-| VS Code | Development Environment |
+| Plotly | Interactive Charts |
+| FPDF | PDF Report Generation |
+| Joblib | ML Model Storage |
 
 ---
 
 # 📁 Project Structure
 
 ```bash
-ai-data-entry-assistant/
+Cyber-Fraud-Detection-System/
 │
 ├── app.py
 ├── requirements.txt
 ├── README.md
-├── submission_history.db
 │
-├── automation/
-│   └── form_filler.py
+├── data/
+│   └── fraud_dataset.csv
 │
-├── database/
-│   └── db.py
+├── models/
+│   └── fraud_model.pkl
 │
-├── utils/
-│   └── document_extractor.py
+├── src/
+│   ├── train_model.py
+│   ├── database.py
+│   └── report.py
+│
+├── pages/
+│   ├── dashboard.py
+│   ├── prediction.py
+│   └── history.py
 │
 ├── screenshots/
-│
-├── sample_files/
 │
 └── .streamlit/
     └── config.toml
@@ -175,7 +162,7 @@ ai-data-entry-assistant/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/HarishRavikumar510/autoentry-ai.git
+git clone https://github.com/your-username/Cyber-Fraud-Detection-System.git
 ```
 
 ---
@@ -183,7 +170,7 @@ git clone https://github.com/HarishRavikumar510/autoentry-ai.git
 ## Navigate to Project
 
 ```bash
-cd autoentry-ai
+cd Cyber-Fraud-Detection-System
 ```
 
 ---
@@ -223,18 +210,18 @@ pip install -r requirements.txt
 # ▶️ Run Application
 
 ```bash
-python -m streamlit run app.py
+streamlit run app.py
 ```
 
 ---
 
-# 📊 Sample Extracted Output
+# 📊 Sample Fraud Detection Input
 
 ```json
 {
-  "Name": "Harish Ravikumar",
-  "Email": "harish@gmail.com",
-  "Phone": "9876543210"
+  "amount": 25000,
+  "transaction_type": "UPI",
+  "device_risk": 95
 }
 ```
 
@@ -242,25 +229,22 @@ python -m streamlit run app.py
 
 # 🎯 Project Objectives
 
-- Automate repetitive data entry workflows
-- Build AI-powered document processing systems
-- Simulate enterprise workflow automation
-- Reduce manual form submission effort
-- Create intelligent browser automation platform
+- Detect suspicious financial transactions using AI
+- Improve cybersecurity monitoring efficiency
+- Build explainable and trustworthy fraud detection systems
+- Simulate real-world fraud monitoring workflow
 
 ---
 
 # 🌟 Future Enhancements
 
-- 🌍 OCR for scanned documents
-- 📈 AI confidence scoring
-- 🤖 Resume ranking system
+- 🌍 Geo-location fraud tracking
+- 📈 Real-time monitoring
+- 🤖 AI chatbot assistant
 - ☁️ Cloud deployment
 - 📱 Mobile responsive dashboard
-- 🔐 Multi-user authentication
-- 📡 REST API integration
-- 🧠 Handwriting recognition
-- 📄 Aadhaar/PAN extraction
+- 🔐 OTP verification
+- 📡 Live transaction streaming
 
 ---
 
@@ -271,7 +255,7 @@ python -m streamlit run app.py
 ## Harish Ravikumar
 
 ### Electronics and Communication Engineering Student  
-### AI • Automation • IoT • Intelligent Systems Enthusiast
+### AI • Cybersecurity • IoT • Machine Learning Enthusiast
 
 ---
 
@@ -289,18 +273,17 @@ https://www.linkedin.com/in/harish-ravikumar-70509524a/
 
 # ⭐ Why This Project Stands Out
 
-Unlike traditional automation demos, this project combines:
+Unlike traditional fraud detection demos, this project combines:
 
-- Intelligent Document Processing
-- Browser Automation
-- PDF Extraction
-- Workflow Orchestration
-- Database Persistence
+- Machine Learning
+- Explainable AI
+- Cybersecurity Monitoring
 - Dashboard Analytics
-- AI-Powered Field Detection
+- Database Logging
+- Report Generation
 - Professional UI/UX
 
-into a single integrated intelligent workflow automation platform.
+into a single integrated intelligent monitoring platform.
 
 ---
 
